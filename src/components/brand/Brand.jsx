@@ -1,35 +1,27 @@
 import React from 'react'
 import './brand.css'
-import { phone, coin, coinhand, dump, chart } from './import'
+import {FaMedium, FaTwitter, FaTelegram} from 'react-icons/fa'
+import { logo, diffusion } from './import'
 
 const Brand = () => {
   return (
-      <section className='gpt3__brand section__padding' id='brand'>
-<h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid!</h2>
-<div className='gpt3__brand-input'>
+      <section className='gpt3__brand section__padding'>
+<h2>We will never know what kind of setup market will present to you; but our objective would be to find an opportunity where risk-reward ratio is best.</h2>
+<div className='gpt3__brand-input' id='trade'>
   <img className='gpt3__brand-input-img'
-  src={coin}
+  src={logo}
   alt='edove logo'
   />
-  <input type="text" placeholder=''/>
+  <input type="text" placeholder='0x88032493fd18279339147fbdafe0e8e4ba53452f'/>
   <img className='gpt3__brand-input-img1'
-  src={coinhand}
+  src={diffusion}
   alt ="trade link"
   />
 </div>
 <div className='gpt3__brand-socials'>
-<img
-  src={coin}
-  alt='twitter'
-  />
-  <img
-  src={coinhand}
-  alt='telegram'
-  />
-  <img
-  src={phone}
-  alt='medium'
-  />
+<FaTwitter size={30}/>
+  <FaTelegram size={30}/>
+  <FaMedium size={30}/>
 </div>
 
       </section>

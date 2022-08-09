@@ -1,0 +1,57 @@
+.edove__premium-container1 {
+    margin-top: 8rem;
+    min-height: 70vh;
+}
+
+.edove__premium-container {
+    min-height: 60vh;
+    margin-top: 2rem;
+}
+.edove__premium-container h2{
+    font-size: 2.5rem;
+}
+.edove__premium-center span,
+.edove__premium-center h2 {
+    text-align: center;
+    display: block;
+    padding-top: 1.5rem;
+}
+.edove__premium-sub{
+    display: flex;
+        justify-content: space-around;
+        margin: 2rem auto;
+        padding: 1rem 0;
+        max-width: 100%;
+        gap: 10%;
+        
+}
+.edove__premium-flex{
+    display: flex;
+}
+.edove__premium-section img{
+    width: 100%;
+    height: 100%;
+}
+.edove__premium-content{
+    width: 50%;
+}
+.images{
+    max-width: 100%;
+    min-height: 29vh;
+}
+@media screen and (min-width:1300px){
+    .edove__premium-sub{
+        max-width: 75%;
+    }
+    .images{
+        max-width: 65%;
+    }
+}
+@media screen and (max-width:620px){
+    .edove__premium-sub{
+        flex-direction: column;
+    }
+    .edove__premium-content{
+        width: 100%;
+    }
+}

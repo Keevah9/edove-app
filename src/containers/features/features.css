@@ -1,0 +1,56 @@
+.edove__mainFeatures-section{
+    background-color: var(--color-bg);
+        width: 100%;
+}
+.edove__mainFeatures-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    position: relative;
+    z-index: 6;
+}
+.width{
+    width: 50%;
+}
+.edove__mainFeatures-container-second img{
+    margin-top: 3rem;
+    max-height: 60vh;
+    max-width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.edove__mainFeatures-container-first{
+    margin-top: 4rem;
+}
+.edove__mainFeatures-container-third{
+    margin-top: 20rem;
+    position: relative;
+}
+.spaceLine{
+    width: 8rem;
+    height:.5rem;
+    background-color: #f99a67;
+    margin-bottom: 1.5rem;
+    margin-top: -1.5rem;
+}
+.leftCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+@media screen and (max-width:520px) {
+    .edove__mainFeatures-container{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+        .edove__mainFeatures-container-third{
+            margin-top: 0%;
+        }
+        .width{
+            width: 100%;
+        }
+}

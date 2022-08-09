@@ -85,14 +85,15 @@ background-color: #3e6388;
     margin-top: 1rem;
     min-width: 250px;
     border-radius: 5px;
-    color: white;
+    
     font-size: 1.3rem;
     font-weight: bold;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
-
 .gpt3__navbar-menu_container p{
     margin: 1rem 0;
+    color: white;
+    font-weight: bold;
 }
 
 @media screen and (max-width:1050px){
@@ -115,9 +116,13 @@ background-color: #3e6388;
 @media screen and (max-width:537px){
     .gpt3__navbar-button{
         display: none;
+        
     }
-    .hideBtn {
+    .hideBtn{
         display: block;
+    }
+    .hideBtn p{
+        color: #040C18;
     }
                 .gpt3__navbar {
                     padding: 2rem ;

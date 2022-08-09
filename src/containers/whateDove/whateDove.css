@@ -1,10 +1,102 @@
-.gpt3__whatedove{
-    background-color: var(--color-footer);
-}
-.gpt3__whatedove-feature{
-    display: flex;
 
+.gpt3__whatedove-feature{
+    text-align: left;
+    display: flex;
 }
-.gpt3__whatedove-feature .gpt3__whatedove-features{
+.gpt3__whatedove{
+        margin-bottom: 3rem;
+}
+.gpt3__whatedove-featur{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edove__whatedove-section-head{
+            text-align: center;
+            font-size: 35px;
+            z-index: 1;
+            opacity: .15;
+            width: fit-content;
+            color: white;
+            margin: 0 auto;
+            transform: skewX(15deg);
+        
+}
+.gpt3__whatedove-feature .gpt3__features-container__feature{
+    margin: 0;
+}
+.gpt3__whatedove-feature .gpt3__features-container__features-text {
+    max-width: 700px;
+}
+.gpt3__whatedove-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+    flex-wrap: wrap;
+}
+.gpt3__whatedove-heading h1{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 1.5rem;
+    max-width: 400px;
+}
+.gpt3__whatedove-container{
+    display: flex;
+    min-height: 40rem;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-top: 2rem ;
+    position: relative;
     
+}
+.features {
+    width: 33%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.firstFeature{
+    border: 10px solid #81AFDD;
+}
+.secondFeature {
+    margin-bottom: -1.5rem;
+    height: 37rem;
+    border: 10px solid #f99a67 ;
+}
+.thirdFeature {
+    border: 10px solid #81AFDD;
+}
+p{
+    font-size: 16px;
+}
+@media  screen and (min-width:1100px) {
+    .features{
+        width: 25%;
+    }
+}
+@media screen and (max-width:690px) {
+    .gpt3__whatedove-container{
+        flex-direction: column;
+    }
+        .features {
+            width: 70%;
+        }
+        .secondFeature{
+            margin-top: .3rem;
+        }
+}
+@media screen and (max-width:450px) {
+    .features {
+        width: 90%;
+    }
 }

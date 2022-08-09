@@ -2,11 +2,12 @@
 .btn{
     padding: .5rem 1.3rem;
     border-top-left-radius: 15px;
-    margin-top: 3rem;
 margin-right: 2rem;
 color: #040C18;
 font-weight: bold;
 cursor: pointer;
+border: none;
+background-color: white;
 }
 .moreBtn{
     border: none;
@@ -43,6 +44,25 @@ cursor: pointer;
     width: 25%;
     height: 4rem;
     border-radius: 10px;
+    
+    
+}
+.gpt3__header-otherInfo .third{
+    border: 2px solid #0a2d53;
+    box-shadow: 0 0 10px #0f4e91;
+}
+.gpt3__header-otherInfo .second{
+    border:2px solid #f9a97e;
+    box-shadow: 0 0 10px #f9a97e;
+}
+.gpt3__header-otherInfo .first {
+    border: 2px solid #81AFDD;
+    box-shadow: 0 0 10px #81AFDD;
+    
+}
+.gpt3__header-otherInfo .fourth {
+    border: 2px solid white;
+    box-shadow: 0 0 10px white;
 }
 .gpt3__header{
     display: flex;
@@ -66,12 +86,7 @@ cursor: pointer;
     
 }
 .gpt3__header-content p{
-    font-size: 20px;
-    line-height: 27px;
-    font-weight: normal;
-    font-style: normal;
-    color: var(--color-text);
-    margin-top: 1.5rem;
+   
     max-width: 83%;
 }
 .gpt3__header-image{

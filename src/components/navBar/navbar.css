@@ -1,0 +1,131 @@
+.gpt3__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.gpt3__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.gpt3__navbar-links_logo{
+    margin-right: 2rem;
+}
+.gpt3__navbar-links_logo img{
+    width: 60px;
+    height: 40px;
+}
+.gpt3__navbar-links_container{
+display: flex;
+}
+.gpt3__navbar-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gpt3__navbar-links_container p,
+.gpt3__navbar-button p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.gpt3__navbar-button p{
+    border: 1px solid white;
+    background-color: rgb(247, 246, 246);
+    color:#040C18 ;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: .4rem 2rem;
+    font-size: 1.3rem;
+    text-transform: none;
+}
+.gpt3__navbar-button p:hover, 
+.gpt3__navbar-links_container p:hover{
+color: white;
+font-size: 1.5rem;
+border: none;
+}
+.gpt3__navbar-button p:hover{
+background-color: #3e6388;
+}
+.gpt3__navbar-links_container p:hover{
+    background-color: none;
+    border-radius: 5px;
+    color: #3e6388;
+}
+.gpt3__navbar-menu_container p:hover{
+    font-size: 1.6rem;
+}
+.gpt3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.gpt3__navbar-menu svg{
+    cursor: pointer;
+}
+.gpt3__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: #3e6388;
+    opacity: .7;
+    padding: 2rem  6rem;
+    position: absolute;
+    top: 50px;
+    right: -60px;
+    margin-top: 1rem;
+    min-width: 250px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.gpt3__navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:1050px){
+    .gpt3__navbar-links_container{
+        display: none;
+    }
+    .gpt3__navbar-menu{
+        display: flex;
+    }
+    .gpt3__navbar-button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .hideBtn{
+        display: none;
+    }
+        
+}
+@media screen and (max-width:537px){
+    .gpt3__navbar-button{
+        display: none;
+    }
+    .hideBtn {
+        display: block;
+    }
+                .gpt3__navbar {
+                    padding: 2rem ;
+                
+                }
+                                .gpt3__navbar-button p:hover {
+                                    background-color: #040C18;
+                                    font-size: 1.3rem;
+                                    border: none;
+                                }
+}

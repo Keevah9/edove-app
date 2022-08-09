@@ -1,0 +1,42 @@
+.gpt3__brand-socials img{
+    width: 7rem;
+        height: 3.2rem;
+        border-radius: 50%;
+}
+.gpt3__brand{
+    margin-top: 3rem;
+    min-height: 40vh;
+    text-align: center;
+}
+.gpt3__brand-socials{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.gpt3__brand-input{
+margin: 4rem auto;
+width: 100%;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+ .gpt3__brand-input input{
+    padding: 1rem 2.5rem;
+    width: 55%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+.gpt3__brand-input img{
+width: 6rem;
+    height: 3.8rem;
+    margin-left: 1.2rem;
+    border-radius: 5px;
+}
+.gpt3__brand-input-img{
+    max-width: 5rem;
+    max-height: 3.3rem;
+    margin-top: .3rem;
+    position: relative;
+    left: 5.5rem;
+}
